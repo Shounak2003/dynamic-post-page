@@ -1,0 +1,69 @@
+/* src/Post.css */
+.post-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.post-container input,
+.post-container textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.post-preview {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.post-preview img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+/* src/Post.css */
+.post-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.post-container input,
+.post-container textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.post-preview {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.post-preview img {
+  max-width: 100%;
+  height: auto;
+}
