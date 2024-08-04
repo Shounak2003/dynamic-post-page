@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+<h1 align="center" id="title">Dynamic Post Page</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p id="description">This project demonstrates how to create a dynamic post page using React that generates an Open Graph (OG) image based on the post content. The generated OG image includes the post title content snippet and an optional image replicating the design of the post itself.</p>
 
-## Available Scripts
+<h2>🚀 Demo</h2>
 
-In the project directory, you can run:
+[https://dynamic-post-page.vercel.app/](https://dynamic-post-page.vercel.app/)
 
-### `npm start`
+<h2>Project Screenshots:</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="yfhv" alt="project-screenshot" width="400" height="400/">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  
+  
+<h2>🧐 Features</h2>
 
-### `npm test`
+Here're some of the project's best features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*   Simple post page with fields for title and content.
+*   Dynamically generates an OG image (1200x630 pixels) using the post content.
+*   Automatically adds the OG image meta tag to the post page's HTML.
+*   Styled to be visually appealing and readable.
+*   Optimized for speed in image generation.
 
-### `npm run build`
+<h2>🛠️ Installation Steps:</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>1. Clone the repository</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+https://github.com/Shounak2003/dynamic-post-page.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p>2. Go to the directory</p>
 
-### `npm run eject`
+```
+cd dynamic-post-page
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p>3. Install the dependencies</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+yarn install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p>4. Start the development server</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+yarn start
+```
 
-## Learn More
+  
+  
+<h2>💻 Built with</h2>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Technologies used in the project:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*   React
+*   html-to-image
+*   file-saver
+*   react-helmet
